@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background-color: white;
+    padding-top: 90px;
+    padding-bottom: 70px;
+}
+
+/* Header section */
+.main-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #2563eb;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+.main-header a {
+    text-decoration: none;
+}
+
+.main-header__text {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+.main-navigation__items {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 25px;
+}
+
+.main-navigation__item {
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.main-navigation__item:hover {
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* ================= PROFILE CARD ================= */
+.profile {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.profile > div {
+    position: relative;
+    width: 320px;
+    padding: 25px 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.profile-card__image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.profile-card__name {
+    margin: 10px 0 5px;
+}
+
+.profile-card__position {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.profile-card__button {
+    display: inline-block;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #2563eb;
+    color: #fff;
+    cursor: pointer;
+}
+
+.profile-card__button:hover {
+    background-color: #1e40af;
+}
+
+/* Info section */
+.information {
+    width: 100%;
+    max-width: 1000px;
+    margin: 40px auto;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/* General */
+.information-container__0 {
+    border: 2px solid #2563eb;
+    width: 50%;
+    height: 200px;
+    margin: 20px 0;
+    padding: 15px;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+/* Left block */
+.information-container__1 {
+    float: left;
+    text-align: left;
+}
+
+/* Right block */
+.information-container__2 {
+    float: right;
+    text-align: right;
+}
+
+
+
+/*Footer section*/
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2563eb;
+    color: #fff;
+    text-align: center;
+    padding: 15px 10px;
+}
